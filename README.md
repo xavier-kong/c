@@ -1,1 +1,2 @@
-Currently at page 20/238, 1.5.2 Character Counting
+Currently at page 22/238, 1.5.3 Line Counting
+exercise 1-9
