@@ -1,2 +1,1 @@
-Currently at page 22/238, 1.5.3 Line Counting
-exercise 1-9
+Currently at page 23/238, 1.6 Arrays
