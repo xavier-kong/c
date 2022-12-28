@@ -1,27 +1,29 @@
 #include "stdio.h"
 #include <string.h>
 
-void swap(char *string, int x, int y) {
-	char temp = string[x];
-	string[x] = string[y];
-	string[y] = temp;
+void printOnLine(char *string) {
+	int curr = 0;
+	int length = strlen(string);
 
-}
+	while (curr < length) {
+		if (string[curr] == ' ') {
+			printf("\n");
+		} else {
+			printf("%c", string[curr]);
+		}
+		curr++;
+	}
 
-char* reverseString(char *string)
-{
-	swap(string, 0, 3);
-	swap(string, 1, 2);
-	return string;
+	printf("\n");
 }
 
 int main(void)
 {
-	char string[4];
+	char string[10];
 
-	printf("Enter a string of length 4");
-	scanf("%s", string);
-	printf("Revsersed is: %s", reverseString(string));
+	printf("Enter a sentence of total length 10?");
+	fgets(string, 10, stdin);
+	printOnLine(string);
 
 	return 0;
 
