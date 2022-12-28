@@ -24,4 +24,5 @@ int main(void)
 	printf("Revsersed is: %s", reverseString(string));
 
 	return 0;
+
 }
